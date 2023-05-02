@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>p2</title>
+    <title>DBUsuarios</title>
     <script src="./main.js" type="module" defer></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -15,9 +15,8 @@
         <input type="password"  class="input" id="password_register">
         <h2>Tipo de usuario</h2>
         <div class="input" id="type_of_user">
-            <select id="select_type">
-                <!-- <input type="" class="input" id="type_of_user"> -->
-                <option value="">Tipo de usuario</option>
+            <select id="select_type" class="select_type">
+                <option value="">Selecciona</option>
                 <option value="Admin">Admin</option>
                 <option value="Profesor">Profesor</option>
                 <option value="Estudiante">Estudiante</option>
@@ -30,11 +29,11 @@
     <div class="container_login" id="login_container">
         <h1>Iniciar Sesión</h1>
             <h2>Usuario</h2>
-            <input type="text" id="username">
+            <input type="text" id="username" class="input">
             <h2>Contraseña</h2>
-            <input type="password"  id="password"> 
+            <input type="password"  id="password" class="input"> 
             <br><button class="btn_iniciar_sesion" id="btn_iniciar">Iniciar Sesión</button>
-            <br><a id="create_acount_link" href="">Crear cuenta</a>
+            <br><a id="create_acount_link" class="create_acount_link" href="">Crear cuenta</a>
     </div>
     <div class="container_home hiden" id="home_container">
     <h1>Lista de usuarios</h1>
