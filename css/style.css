@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_register{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  
+}
+.container_login{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.container_home{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.container_titles{
+  background-color: rgba(152, 255, 255, 0.311);
+}
+.create_account_title{
+  margin: 20px;
+
+}
+.input{
+  font-size: 30px;
+  margin: 20px;
+}
+.table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse ;
+}
+.table_users_cont{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.btn_create_account{
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:rgb(0, 85, 255);
+  color: aliceblue;
+}
+.hiden{
+  display: none;
+}
+

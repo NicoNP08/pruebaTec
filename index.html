@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p2</title>
+    <script src="./main.js" type="module" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container_register hiden" id="register_container">
+        <h1 class="create_account_title">Crear cuenta</h1>
+        <h2>Nombre</h2>
+        <input type="text" class="input" id="name_register" placeholder="Nombre">
+        <h2>Contraseña</h2>
+        <input type="password"  class="input" id="password_register">
+        <h2>Tipo de usuario</h2>
+        <div class="input" id="type_of_user">
+            <select id="select_type">
+                <!-- <input type="" class="input" id="type_of_user"> -->
+                <option value="">Tipo de usuario</option>
+                <option value="Admin">Admin</option>
+                <option value="Profesor">Profesor</option>
+                <option value="Estudiante">Estudiante</option>
+            </select>
+        </div>
+        <span id="error_message"></span>
+        <br><button class="btn_create_account" id="btn_create_account">Crear cuenta</button>
+        
+    </div>
+    <div class="container_login" id="login_container">
+        <h1>Iniciar Sesión</h1>
+            <h2>Usuario</h2>
+            <input type="text" id="username">
+            <h2>Contraseña</h2>
+            <input type="password"  id="password"> 
+            <br><button class="btn_iniciar_sesion" id="btn_iniciar">Iniciar Sesión</button>
+            <br><a id="create_acount_link" href="">Crear cuenta</a>
+    </div>
+    <div class="container_home hiden" id="home_container">
+    <h1>Lista de usuarios</h1>
+        <table class="table_users_cont" id="tabla_container">
+            <tr class="container_titles">
+                <th>Nombre</th>
+                <th>Rol</th>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
